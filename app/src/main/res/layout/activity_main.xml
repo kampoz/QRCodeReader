@@ -9,8 +9,9 @@
   android:paddingTop="20dp"
   tools:context=".MainActivity">
 
-  <Button android:layout_height="wrap_content"
+  <Button
+    android:id="@+id/btn_Scan_QR"
+    android:layout_height="wrap_content"
     android:layout_width="match_parent"
-    android:text="QRScanner"
-    android:onClick="QrScanner" />
+    android:text="QRScanner" />
 </RelativeLayout>
